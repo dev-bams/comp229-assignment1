@@ -1,4 +1,4 @@
-import type { SectionTitleProps } from "../../types/types";
+import type { SectionTitleProps } from "../../src/types/types";
 function SectionTitle({ sectionTitle }: SectionTitleProps) {
   return (
     <div className="flex justify-center">

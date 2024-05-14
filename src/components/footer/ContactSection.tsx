@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Contact from "./Contact";
+import Contact from "../../pages/contact-page/Contact";
 
 function ContactSection() {
   const [isLinkClicked, setIsLinkClicked] = useState(false);

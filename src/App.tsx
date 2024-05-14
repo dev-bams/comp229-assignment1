@@ -8,6 +8,8 @@ import "../src/styles/style.css";
 import ErrorPage from "./pages/error-page/ErrorPage";
 import LandingPage from "./pages/landing-page/LandingPage";
 import LayoutPage from "./pages/layout-page/LayoutPage";
+import AboutPage from "./pages/about-page/AboutPage";
+import ProjectsPage from "./pages/projects-page/ProjectsPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -19,6 +21,22 @@ function App() {
         </LayoutPage>
       ),
       errorElement: <ErrorPage />,
+    },
+    {
+      path: "/about",
+      element: (
+        <LayoutPage>
+          <AboutPage />
+        </LayoutPage>
+      ),
+    },
+    {
+      path: "/projects",
+      element: (
+        <LayoutPage>
+          <ProjectsPage />
+        </LayoutPage>
+      ),
     },
   ]);
   return (

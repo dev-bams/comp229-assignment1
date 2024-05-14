@@ -1,6 +1,6 @@
-import NowPlaying from "./NowPlaying";
 import AboutDetails from "./AboutDetails";
 import khaleed from "../../../src/assets/images/khaleed.png";
+import SkillGroup from "./SkillGroup";
 function AboutContent() {
   return (
     <div className="flex h-full items-center flex-col">
@@ -10,7 +10,7 @@ function AboutContent() {
         </div>
         <div className="basis-96 grow-[1] flex flex-col gap-4">
           <AboutDetails />
-          <NowPlaying />
+          <SkillGroup />
         </div>
       </div>
     </div>

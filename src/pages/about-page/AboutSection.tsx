@@ -1,4 +1,4 @@
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "../../components/SectionTitle";
 import AboutContent from "./AboutContent";
 function AboutSection() {
   return (
