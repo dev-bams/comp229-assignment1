@@ -10,6 +10,8 @@ import LandingPage from "./pages/landing-page/LandingPage";
 import LayoutPage from "./pages/layout-page/LayoutPage";
 import AboutPage from "./pages/about-page/AboutPage";
 import ProjectsPage from "./pages/projects-page/ProjectsPage";
+import ServicesPage from "./pages/services-page/ServicesPage";
+import ContactPage from "./pages/contact-page/ContactPage";
 
 function App() {
   const router = createBrowserRouter([
@@ -31,10 +33,26 @@ function App() {
       ),
     },
     {
+      path: "/services",
+      element: (
+        <LayoutPage>
+          <ServicesPage />
+        </LayoutPage>
+      ),
+    },
+    {
       path: "/projects",
       element: (
         <LayoutPage>
           <ProjectsPage />
+        </LayoutPage>
+      ),
+    },
+    {
+      path: "/contact",
+      element: (
+        <LayoutPage>
+          <ContactPage />
         </LayoutPage>
       ),
     },

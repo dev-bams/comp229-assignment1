@@ -7,12 +7,9 @@ type NavLinkProp = {
     | "about"
     | "projects"
     | "skills"
-    | "contact"
-    | "github"
-    | "linkedin"
-    | "instagram"
-    | "x"
-    | "bundleup";
+    | "services"
+    | "home"
+    | "contact";
   link: string;
 };
 type CharacterProp = {
