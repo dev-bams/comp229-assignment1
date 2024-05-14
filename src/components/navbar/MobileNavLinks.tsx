@@ -1,4 +1,4 @@
-import NavLink from "../../components/NavLink";
+import NavLink from "./NavLink";
 
 function MobileNavLinks() {
   return (

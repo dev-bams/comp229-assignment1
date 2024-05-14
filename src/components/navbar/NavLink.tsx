@@ -1,4 +1,4 @@
-import type { NavLinkProp } from "../types/types";
+import type { NavLinkProp } from "../../types/types";
 
 function NavLink({ linkName, link }: NavLinkProp) {
   return (

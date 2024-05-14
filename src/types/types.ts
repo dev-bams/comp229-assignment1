@@ -1,4 +1,7 @@
 import React from "react";
+type PageLayoutProp = {
+  children: React.ReactNode;
+};
 type NavLinkProp = {
   linkName:
     | "about"
@@ -81,4 +84,5 @@ export type {
   MobileNavBarProps,
   ErrorProps,
   CancelProps,
+  PageLayoutProp,
 };

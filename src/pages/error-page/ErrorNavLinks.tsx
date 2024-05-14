@@ -1,4 +1,4 @@
-import NavLink from "../../components/NavLink";
+import NavLink from "../../components/navbar/NavLink";
 
 function ErrorNavLinks() {
   return (

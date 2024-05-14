@@ -1,12 +1,11 @@
 import { useRef, useLayoutEffect, useEffect, useState } from "react";
 import gsap from "gsap";
-import ModeButton from "./ModeButton";
-import HamburgerButton from "../../components/HamburgerButton";
+import ModeButton from "../../pages/landing-page/ModeButton";
+import HamburgerButton from "./HamburgerButton";
 import MobileNavLinks from "./MobileNavLinks";
-import type { MobileNavBarProps } from "../../types/types";
 import VerifiedIcon from "../../assets/icons/VerifiedIcon";
 
-function MobileNavBar({ toggleIsDarkMode, isDarkMode }: MobileNavBarProps) {
+function MobileNavBar() {
   const comp = useRef(null);
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
@@ -80,8 +79,6 @@ function MobileNavBar({ toggleIsDarkMode, isDarkMode }: MobileNavBarProps) {
       >
         <div className="flex gap-5 items-center w-full justify-between">
           <ModeButton
-            toggleIsDarkMode={toggleIsDarkMode}
-            isDarkMode={isDarkMode}
           />
           <div id="navbar-username" className="flex items-center justify-center gap-[.1rem]">
             <p className=" font-bold dark:text-first-text-color transition-colors duration-300 text-second-text-color">
@@ -90,8 +87,6 @@ function MobileNavBar({ toggleIsDarkMode, isDarkMode }: MobileNavBarProps) {
             <VerifiedIcon />
           </div>
           <HamburgerButton
-            onClick={toggleIsLinkActive}
-            isDarkMode={isDarkMode}
           />
         </div>
         <MobileNavLinks />

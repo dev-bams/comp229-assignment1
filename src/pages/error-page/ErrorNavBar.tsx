@@ -1,9 +1,8 @@
 import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
-import { NavBarProps } from "../../types/types";
 import ModeButton from "../landing-page/ModeButton";
 import ErrorNavLinks from "./ErrorNavLinks";
-function NavBar({ toggleIsDarkMode, isDarkMode }: NavBarProps) {
+function NavBar() {
   const comp = useRef(null);
   useLayoutEffect(() => {
     const ctx = gsap.context(() => {
@@ -47,10 +46,7 @@ function NavBar({ toggleIsDarkMode, isDarkMode }: NavBarProps) {
         className="flex justify-between max-w-7xl w-full p-4 translate-y-0"
         id="desktop-navbar"
       >
-        <ModeButton
-          toggleIsDarkMode={toggleIsDarkMode}
-          isDarkMode={isDarkMode}
-        />
+        <ModeButton />
         <ErrorNavLinks />
       </nav>
     </div>
