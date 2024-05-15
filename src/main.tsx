@@ -4,8 +4,6 @@ StudentID: 301286462
 Date: May 14, 2024
 */
 
-/* Your CSS styles go here */
-
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
