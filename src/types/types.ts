@@ -65,6 +65,13 @@ type ErrorProps = {
 type CancelProps = {
   toggleIsActive: () => void;
 };
+type SolutionCardType = {
+  problem: string;
+  solution: string;
+  cardIcon?: React.FC;
+  cardImage?: string;
+};
+type SolutionCardProp = SolutionCardType;
 export type {
   NavLinkProp,
   CharacterProp,
@@ -82,4 +89,6 @@ export type {
   ErrorProps,
   CancelProps,
   PageLayoutProp,
+  SolutionCardType,
+  SolutionCardProp
 };

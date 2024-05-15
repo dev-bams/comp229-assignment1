@@ -1,3 +1,5 @@
+import ServiceCardList from "./ServiceCardList";
+
 function ServicesPage() {
   return (
     <div className="flex flex-col relative bg-second-primary dark:bg-first-primary">
@@ -5,17 +7,8 @@ function ServicesPage() {
         className=" flex justify-center flex-col gap-5 text-white items-center transition-colors duration-300 bg-first-primary"
         style={{ minHeight: "calc( 100vh - 88px )" }}
       >
-        <h2>Services</h2>
-        <div className="flex gap-10">
-          <div className="border">
-            <h2>Website Design</h2>
-          </div>
-          <div className="border">
-            <h2>Website Development</h2>
-          </div>
-          <div className="border">
-            <h2>Website Maintenance</h2>
-          </div>
+        <div className="max-w-7xl w-full p-4 flex flex-col justify-center gap-10">
+          <ServiceCardList />
         </div>
       </div>
     </div>
