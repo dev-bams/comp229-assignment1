@@ -11,13 +11,10 @@ import Mongodb from "../../assets/icons/Mongodb";
 import Nodejs from "../../assets/icons/Nodejs";
 import Tailwind from "../../assets/icons/Tailwind";
 import Git from "../../assets/icons/Git";
-// import Rust from "../../assets/icons/Rust";
 import Python from "../../assets/icons/Python";
 import SCSS from "../../assets/icons/SCSS";
 import Bash from "../../assets/icons/Bash";
 import Figma from "../../assets/icons/Figma";
-// import CPlusPlus from "../../assets/icons/CPlusPlus";
-// import Angular from "../../assets/icons/Angular";
 import SQL from "../../assets/icons/SQL";
 
 function SkillGroup() {

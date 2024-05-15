@@ -1,11 +1,13 @@
 function ContactForm() {
   return (
-    <div>
+    <div
+      className=" flex justify-center transition-colors duration-300 bg-first-primary"
+      style={{ minHeight: "calc( 100vh - 88px )" }}
+    >
       <section className="contact-form-container">
         <div className="contact-form-section">
-          <h2>Contact me</h2>
           <div className="right-contact-form">
-            <form name="contact-me">
+            <form name="contact-me" className="flex justify-center" action="/">
               <input type="text" placeholder="Name" name="name" required />
               <input type="email" placeholder="Email" name="email" />
               <input
@@ -19,7 +21,9 @@ function ContactForm() {
                 name="message"
                 required
               ></textarea>
-              <button className="submit-button-container">send message</button>
+              <button className="border p-4 text-white rounded-lg">
+                Send message
+              </button>
             </form>
           </div>
         </div>

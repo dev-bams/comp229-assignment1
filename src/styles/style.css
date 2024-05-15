@@ -55,13 +55,14 @@
   border-radius: 5px;
   outline: none;
   height: 70px;
-  background-color: rgba(44, 188, 133, 0.1);
+  background-color: #202127;
+  color: white;
   border: none;
   flex-grow: 1;
 }
 .right-contact-form form input::placeholder,
 .right-contact-form form textarea::placeholder {
-  color: #000814;
+  color: white;
   padding-left: 0.5rem;
 }
 .right-contact-form form input:nth-child(3) {
@@ -78,6 +79,7 @@
   border: none;
   outline: none;
   height: 200px;
-  background-color: rgba(44, 188, 133, 0.1);
+  background-color: #202127;
+  color: white;
   resize: none;
 }
