@@ -23,21 +23,6 @@ function WelcomeSection() {
           duration: 1,
         }
       );
-      gsap.fromTo(
-        "#down-arrow",
-        {
-          opacity: 0,
-          stagger: 0.1,
-          delay: 1,
-          duration: 1,
-        },
-        {
-          opacity: 1,
-          stagger: 0.1,
-          delay: 1,
-          duration: 1,
-        }
-      );
     }, comp);
     return () => ctx.revert();
   }, []);
