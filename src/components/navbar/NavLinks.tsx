@@ -5,8 +5,8 @@ function NavLinks() {
     <div className="flex gap-14 items-center">
       <NavLink link="/" linkName="home" />
       <NavLink link="/about" linkName="about" />
-      <NavLink link="/services" linkName="services" />
       <NavLink link="/projects" linkName="projects" />
+      <NavLink link="/services" linkName="services" />
       <NavLink link="/contact" linkName="contact" />
     </div>
   );

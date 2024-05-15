@@ -1,9 +1,6 @@
 function ContactForm() {
   return (
-    <div
-      className=" flex justify-center transition-colors duration-300 bg-first-primary"
-      style={{ minHeight: "calc( 100vh - 88px )" }}
-    >
+    <div className=" flex justify-center transition-colors duration-300 bg-first-primary">
       <section className="contact-form-container">
         <div className="contact-form-section">
           <div className="right-contact-form">
