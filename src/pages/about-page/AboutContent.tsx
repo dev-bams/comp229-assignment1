@@ -1,3 +1,4 @@
+// import DownloadLink from "react-download-link";
 import AboutDetails from "./AboutDetails";
 import SkillGroup from "./SkillGroup";
 function AboutContent() {
@@ -7,7 +8,17 @@ function AboutContent() {
         <AboutDetails />
         <SkillGroup />
       </div>
-      <button className="border p-4 text-white rounded-lg">Download Resume</button>
+      {/* <DownloadLink
+        label="Save"
+        filename="./assignment_resume.pdf"
+        exportFile={() => "My cached data"}
+      /> */}
+      <a
+        href="/assignment_resume.pdf"
+        className="border p-4 text-white rounded-lg"
+      >
+        Download Resume
+      </a>
     </div>
   );
 }

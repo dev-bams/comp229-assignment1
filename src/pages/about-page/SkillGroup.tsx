@@ -36,9 +36,6 @@ function SkillGroup() {
     Git,
     SCSS,
     Figma,
-    // Angular,
-    // Rust,
-    // CPlusPlus,
   ];
   return (
     <div className="dark:bg-first-card bg-second-card transition-colors duration-300 p-6 rounded-lg basis-96 grow">
