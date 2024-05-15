@@ -53,7 +53,7 @@ function NavBar() {
   return (
     <div
       ref={comp}
-      className={`flex justify-center transition-colors duration-300 bg-second-primary dark:bg-first-primary max-sm:hidden sticky top-0 z-10`}
+      className={`flex justify-center transition-colors duration-300 bg-first-primary max-sm:hidden sticky top-0 z-10`}
     >
       <nav
         className="flex justify-between max-w-7xl w-full p-4 translate-y-0"

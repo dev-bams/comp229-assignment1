@@ -46,7 +46,7 @@ function SkillGroup() {
   ];
   return (
     // Container div for the skill group with background color transition, padding, and border radius
-    <div className="dark:bg-first-card bg-second-card transition-colors duration-300 p-6 rounded-lg basis-96 grow">
+    <div className="bg-first-card transition-colors duration-300 p-6 rounded-lg basis-96 grow">
       <div className="flex gap-4 flex-wrap justify-center">
         {/* Map through the skills array and render a SkillIcon component for each skill */}
         {skills.map((skillName, index) => {

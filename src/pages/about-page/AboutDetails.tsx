@@ -18,14 +18,14 @@ function AboutDetails() {
   }
   return (
     // Container div for about details with color transition, flex layout, gap, and border
-    <div className="dark:text-first-text-color text-second-text-color transition-colors duration-300 flex flex-col gap-4 dark:bg-first-card bg-second-card rounded-lg dark:border-grey border-[.1px]">
-      <div className="border-b-[.1px] dark:border-grey p-4">
+    <div className="text-first-text-color  transition-colors duration-300 flex flex-col gap-4 bg-first-card border-grey border-[.1px]">
+      <div className="border-b-[.1px] border-grey p-4">
         <div className="flex gap-2 items-center">
           {/* Profile image */}
           <img src={profile2} className="w-7 h-7 rounded-full" alt="Profile" />
           <div className="flex items-center justify-center gap-[.1rem]">
             {/* Name with verified icon */}
-            <p className="font-bold dark:text-first-text-color transition-colors duration-300 text-second-text-color">
+            <p className="font-bold text-first-text-color transition-colors duration-300">
               khaleed
             </p>
             <VerifiedIcon /> {/* Verified icon */}
@@ -38,7 +38,7 @@ function AboutDetails() {
         {/* About text */}
         <p>
           👋 Hey there! I'm {/* Highlighted name */}
-          <span className="text-first-accent dark:selection:bg-black dark:selection:text-first-accent selection:bg-slate-200">
+          <span className="text-first-accent selection:bg-black selection:text-first-accent">
             Khaleed Opeloyeru
           </span>
           , a software engineering student based in Canada 🍁. Passionate about

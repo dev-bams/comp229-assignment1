@@ -28,7 +28,7 @@ function ProjectCard({
     <div
       onMouseEnter={toggleOverLay}
       onMouseLeave={toggleOverLay}
-      className="rounded-lg text-lg basis-[600px] dark:bg-first-card bg-second-card overflow-hidden border dark:border-none"
+      className="rounded-lg text-lg basis-[600px] bg-first-card overflow-hidden border border-none"
     >
       <div className="flex flex-col justify-center h-full w-full items-center cursor-cell relative overflow-hidden">
         {/* Link wrapping the project image */}
@@ -41,12 +41,12 @@ function ProjectCard({
           {/* Project image */}
         </a>
         <div
-          className={`card__overlay w-full h-full absolute flex justify-center items-center dark:bg-first-card bg-second-card ${
+          className={`card__overlay w-full h-full absolute flex justify-center items-center bg-first-card ${
             isOverLayActive ? "card__overlay--active" : ""
           }`}
         >
           <div
-            className={`card__overlay-text flex flex-col items-start h-full w-full justify-center p-4 gap-4 dark:text-white text-black ${
+            className={`card__overlay-text flex flex-col items-start h-full w-full justify-center p-4 gap-4 text-white ${
               isOverLayActive ? "card__overlay--active" : ""
             }`}
           >

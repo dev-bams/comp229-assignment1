@@ -86,7 +86,7 @@ function MobileNavBar() {
   return (
     <div
       ref={comp}
-      className="bg-second-primary dark:bg-first-primary transition-colors duration-300 flex justify-center sm:hidden sticky top-0 overflow-hidden z-10"
+      className=" bg-first-primary transition-colors duration-300 flex justify-center sm:hidden sticky top-0 overflow-hidden z-10"
     >
       <nav
         className={`flex p-4 flex-col max-w-7xl w-full transition-all duration-500 ${
@@ -101,7 +101,7 @@ function MobileNavBar() {
             id="navbar-username"
             className="flex items-center justify-center gap-[.1rem]"
           >
-            <p className="font-bold dark:text-first-text-color transition-colors duration-300 text-second-text-color">
+            <p className="font-bold text-first-text-color transition-colors duration-300">
               khaleed
             </p>
             <VerifiedIcon />

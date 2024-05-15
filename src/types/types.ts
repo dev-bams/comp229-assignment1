@@ -3,13 +3,7 @@ type PageLayoutProp = {
   children: React.ReactNode;
 };
 type NavLinkProp = {
-  linkName:
-    | "about"
-    | "projects"
-    | "skills"
-    | "services"
-    | "home"
-    | "contact";
+  linkName: "about" | "projects" | "skills" | "services" | "home" | "contact";
   link: string;
 };
 type CharacterProp = {
@@ -35,32 +29,6 @@ type ProjectCardProps = {
 type HamBurgerProps = {
   onClick: () => void;
 };
-type LandingPageProps = {
-  toggleIsDarkMode: () => void;
-  isDarkMode: boolean;
-};
-type NavBarProps = {
-  toggleIsDarkMode: () => void;
-  isDarkMode: boolean;
-};
-type ModeButtonProps = {
-  toggleIsDarkMode: () => void;
-  isDarkMode: boolean;
-};
-type LightModeProps = {
-  toggleIsDarkMode: () => void;
-};
-type DarkModeProps = {
-  toggleIsDarkMode: () => void;
-};
-type MobileNavBarProps = {
-  toggleIsDarkMode: () => void;
-  isDarkMode: boolean;
-};
-type ErrorProps = {
-  toggleIsDarkMode: () => void;
-  isDarkMode: boolean;
-};
 type CancelProps = {
   toggleIsActive: () => void;
 };
@@ -79,15 +47,8 @@ export type {
   SkillIconProp,
   ProjectCardProps,
   HamBurgerProps,
-  LandingPageProps,
-  NavBarProps,
-  ModeButtonProps,
-  LightModeProps,
-  DarkModeProps,
-  MobileNavBarProps,
-  ErrorProps,
   CancelProps,
   PageLayoutProp,
   SolutionCardType,
-  SolutionCardProp
+  SolutionCardProp,
 };

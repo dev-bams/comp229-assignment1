@@ -7,7 +7,7 @@ function SkillCodeEditorTop() {
         <div className=" w-3 bg-expand-button h-3 rounded-full"></div>
       </div>
       <div className="flex w-full justify-center">
-        <p className="dark:text-first-text-color text-second-text-color">
+        <p className="text-first-text-color">
           Skills.json
         </p>
       </div>

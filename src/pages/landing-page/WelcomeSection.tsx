@@ -56,20 +56,20 @@ function WelcomeSection() {
     <div
       ref={comp}
       id="welcome"
-      className="flex justify-center bg-second-primary dark:bg-first-primary transition-colors duration-300"
+      className="flex justify-center bg-first-primary transition-colors duration-300"
       style={{ minHeight: "calc( 100vh - 88px )" }}
     >
       <div className="flex flex-col justify-center w-full max-w-7xl p-4 gap-6">
         {/* Welcome text with inline styling and classes for color transition */}
-        <h2 className="welcome-texts text-second-text-color dark:text-first-text-color transition-colors duration-300 text-lg font-bold ">
+        <h2 className="welcome-texts text-first-text-color transition-colors duration-300 text-lg font-bold ">
           Hey there! {/* Span for the accent color with specific styling */}
-          <span className="text-first-accent dark:selection:bg-black dark:selection:text-first-accent selection:bg-slate-200">
+          <span className="selection:bg-black selection:text-first-accent">
             I'm
           </span>
         </h2>
         <FullName /> {/* Render the FullName component */}
         {/* Welcome message with inline styling and classes for color transition */}
-        <h2 className="welcome-texts text-2xl font-bold text-second-text-color transition-colors duration-300 dark:text-first-text-color">
+        <h2 className="welcome-texts text-2xl font-bold transition-colors duration-300 text-first-text-color">
           Welcome to my corner of the web
         </h2>
         {/* Link to navigate to the about page with specific styling */}
