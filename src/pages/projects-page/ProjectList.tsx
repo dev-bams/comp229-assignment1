@@ -1,11 +1,8 @@
 import ProjectCard from "./ProjectCard";
 import quizwave from "../../assets/images/quizwave.png";
 import taskpulse from "../../assets/images/taskpulse.png";
-// import bmibuddy from "../../assets/images/bmibuddy.png";
-import nimor from "../../assets/images/nimor.png";
 import nairaupdatesng from "../../assets/images/nairaupdatesng.png";
 import bundleup from "../../assets/images/bundleup.png";
-import rentease from "../../assets/images/rentease.png";
 
 function ProjectList() {
   const projectData = [
@@ -17,16 +14,6 @@ function ProjectList() {
       cardID: 1,
       link: "https://bundleup.us",
       linkName: "bundleup.us",
-      technologies: "React & Tailwind",
-    },
-    {
-      projectImage: nimor,
-      projectTitle: "Nimor",
-      overlayProjectDescription:
-        "Nimor is a web design agency that offers web design and development services.",
-      cardID: 6,
-      link: "https://nimor.co/",
-      linkName: "nimor.co",
       technologies: "React & Tailwind",
     },
     {
@@ -58,16 +45,6 @@ function ProjectList() {
       link: "https://taskpulse.netlify.app/",
       linkName: "taskpulse.netlify.com",
       technologies: "React & Tailwind",
-    },
-    {
-      projectImage: rentease,
-      projectTitle: "Rentease",
-      overlayProjectDescription:
-        "Rentease Simplifies rentals by providing transparency and scam prevention for both landlords and tenants.",
-      cardID: 2,
-      link: "https://renteasenow.netlify.app/",
-      linkName: "renteasenow.netlify.com",
-      technologies: "MERN Stack",
     },
   ];
   return (

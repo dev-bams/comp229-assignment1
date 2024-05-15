@@ -1,4 +1,3 @@
-// import profile from "../assets/images/profile.jpeg";
 import VerifiedIcon from "../../assets/icons/VerifiedIcon";
 import profile2 from "../../assets/images/profile2.png";
 function AboutDetails() {

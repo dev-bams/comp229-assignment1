@@ -1,7 +1,6 @@
 import { useRef, useLayoutEffect } from "react";
 import gsap from "gsap";
 import FullName from "./FullName";
-import DownArrow from "../../assets/icons/DownArrow";
 
 function WelcomeSection() {
   const comp = useRef(null);
@@ -46,8 +45,8 @@ function WelcomeSection() {
     <div
       ref={comp}
       id="welcome"
-      className="flex justify-center bg-second-primary dark:bg-first-primary transition-colors duration-300 min-h-lvh"
-      // style={{ minHeight: "calc(100vh - 56px)" }}
+      className="flex justify-center bg-second-primary dark:bg-first-primary transition-colors duration-300"
+      style={{ minHeight: "calc( 100vh - 88px )" }}
     >
       <div className=" flex flex-col justify-center w-full max-w-7xl p-4 gap-6 ">
         <h2 className="welcome-texts text-second-text-color dark:text-first-text-color transition-colors duration-300 text-lg font-bold ">
@@ -60,7 +59,6 @@ function WelcomeSection() {
         <h2 className="welcome-texts text-2xl font-bold text-second-text-color transition-colors duration-300 dark:text-first-text-color">
           Welcome to my corner of the web
         </h2>
-        <DownArrow />
       </div>
     </div>
   );

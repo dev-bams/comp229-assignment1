@@ -1,7 +1,0 @@
-.word-gradient {
-  background-image: -webkit-linear-gradient(120deg, #bd34fe 30%, #47caff);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  min-height: 72px;
-}

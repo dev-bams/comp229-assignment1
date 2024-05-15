@@ -1,8 +1,6 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import "../src/styles/index.css";
-import "../src/styles/gradient.css";
 import "../src/styles/scroll-bar.css";
-import "../src/styles/now-playing.css";
 import "../src/styles/project.css";
 import "../src/styles/style.css";
 import ErrorPage from "./pages/error-page/ErrorPage";

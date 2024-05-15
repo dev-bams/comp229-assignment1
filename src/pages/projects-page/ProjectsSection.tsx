@@ -1,4 +1,3 @@
-import SectionTitle from "../../components/SectionTitle";
 import ProjectList from "./ProjectList";
 
 function ProjectsSection() {
@@ -8,7 +7,6 @@ function ProjectsSection() {
       id="projects"
     >
       <div className="max-w-7xl w-full p-4  flex flex-col justify-center gap-10 ">
-        <SectionTitle sectionTitle="projects" />
         <div className="flex h-full items-center">
           <ProjectList />
         </div>

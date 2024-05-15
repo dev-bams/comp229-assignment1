@@ -1,6 +1,6 @@
 import FullName from "./FullName";
 
-function Logo() {
+function ModeButton() {
   return (
     <div className="min-h-lvh flex items-center justify-center bg-first-primary flex-col">
       <div className=" flex flex-col justify-center w-full max-w-7xl p-4 gap-6 ">
@@ -16,4 +16,4 @@ function Logo() {
   );
 }
 
-export default Logo;
+export default ModeButton;
