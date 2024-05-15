@@ -34,7 +34,6 @@ type ProjectCardProps = {
 };
 type HamBurgerProps = {
   onClick: () => void;
-  isDarkMode: boolean;
 };
 type LandingPageProps = {
   toggleIsDarkMode: () => void;

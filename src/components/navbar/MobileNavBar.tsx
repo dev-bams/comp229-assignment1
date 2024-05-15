@@ -78,16 +78,17 @@ function MobileNavBar() {
         }`}
       >
         <div className="flex gap-5 items-center w-full justify-between">
-          <ModeButton
-          />
-          <div id="navbar-username" className="flex items-center justify-center gap-[.1rem]">
+          <ModeButton />
+          <div
+            id="navbar-username"
+            className="flex items-center justify-center gap-[.1rem]"
+          >
             <p className=" font-bold dark:text-first-text-color transition-colors duration-300 text-second-text-color">
               khaleed
             </p>
             <VerifiedIcon />
           </div>
-          <HamburgerButton
-          />
+          <HamburgerButton onClick={toggleIsLinkActive}/>
         </div>
         <MobileNavLinks />
       </nav>

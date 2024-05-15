@@ -1,6 +1,7 @@
-function HamburgerButton() {
+import { HamBurgerProps } from "../../types/types";
+function HamburgerButton({ onClick }: HamBurgerProps) {
   return (
-    <div className="cursor-cell" id="hamburger">
+    <div className="cursor-cell" id="hamburger" onClick={onClick}>
       <svg
         width="48px"
         height="48px"

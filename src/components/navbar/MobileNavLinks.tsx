@@ -3,7 +3,7 @@ import NavLink from "./NavLink";
 function MobileNavLinks() {
   return (
     <div>
-      <div className="flex gap-8 items-center justify-center p-4">
+      <div className="flex gap-6 items-center justify-center p-4">
         <NavLink link="/" linkName="home" />
         <NavLink link="/about" linkName="about" />
         <NavLink link="/projects" linkName="projects" />
