@@ -39,7 +39,7 @@ function AboutDetails() {
         <p>
           👋 Hey there! I'm {/* Highlighted name */}
           <span className="text-first-accent dark:selection:bg-black dark:selection:text-first-accent selection:bg-slate-200">
-            Khaleed
+            Khaleed Opeloyeru
           </span>
           , a software engineering student based in Canada 🍁. Passionate about
           crafting innovative solutions and exploring the endless possibilities
