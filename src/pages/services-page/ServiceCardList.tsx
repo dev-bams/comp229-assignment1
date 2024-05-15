@@ -1,9 +1,16 @@
-import { SolutionCardType } from "../../types/types";
-import HowItWorksCard from "./ServiceCard";
-import DesignIcon from "../../assets/icons/DesignIcon";
-import CodeIcon from "../../assets/icons/CodeIcon";
-import RocketIcon from "../../assets/icons/RocketIcon";
+/*
+Student’s Name: Khaleed Opeloyeru
+StudentID: 301286462
+Date: May 14, 2024
+*/
 
+import { SolutionCardType } from "../../types/types"; // Import the type definition for SolutionCardType
+import HowItWorksCard from "./ServiceCard"; // Import the HowItWorksCard component
+import DesignIcon from "../../assets/icons/DesignIcon"; // Import the design icon component
+import CodeIcon from "../../assets/icons/CodeIcon"; // Import the code icon component
+import RocketIcon from "../../assets/icons/RocketIcon"; // Import the rocket icon component
+
+// Define an array of solution objects with their respective details
 const solutions: SolutionCardType[] = [
   {
     problem: "Website Design",
@@ -25,17 +32,20 @@ const solutions: SolutionCardType[] = [
   },
 ];
 
+// Component to render a list of service cards
 function ServiceCardList() {
   return (
+    // Container div to layout the service cards
     <div className="flex gap-10 flex-wrap justify-center">
+      {/* Map through the solutions array and render a HowItWorksCard for each solution */}
       {solutions.map(({ problem, solution, cardIcon, cardImage }, index) => {
         return (
           <HowItWorksCard
-            key={index}
-            problem={problem}
-            solution={solution}
-            cardIcon={cardIcon}
-            cardImage={cardImage}
+            key={index} // Unique key for each card based on the index
+            problem={problem} // Problem description for the card
+            solution={solution} // Solution description for the card
+            cardIcon={cardIcon} // Icon component for the card
+            cardImage={cardImage} // Image for the card (if any)
           />
         );
       })}
@@ -43,4 +53,4 @@ function ServiceCardList() {
   );
 }
 
-export default ServiceCardList;
+export default ServiceCardList; // Export the ServiceCardList component as the default export
