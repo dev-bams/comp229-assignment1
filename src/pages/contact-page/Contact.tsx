@@ -1,5 +1,4 @@
 import Mail from "../../assets/icons/Mail";
-import Linkedin from "../../assets/icons/Linkedin";
 import Github from "../../assets/icons/Github";
 
 function Contact() {
@@ -8,7 +7,6 @@ function Contact() {
     >
       <Github />
       <Mail />
-      <Linkedin />
     </div>
   );
 }
