@@ -15,7 +15,7 @@ function AboutContent() {
       /> */}
       <a
         href="/assignment_resume.pdf"
-        className="border p-4 text-white rounded-lg"
+        className="border p-4 text-white rounded-lg cursor-cell"
       >
         Download Resume
       </a>

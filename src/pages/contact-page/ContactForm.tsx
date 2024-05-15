@@ -18,7 +18,7 @@ function ContactForm() {
                 name="message"
                 required
               ></textarea>
-              <button className="border p-4 text-white rounded-lg">
+              <button className="border p-4 text-white rounded-lg cursor-cell">
                 Send message
               </button>
             </form>
