@@ -10,7 +10,7 @@ function ContactSection() {
             Designed & Developed by{" "}
             <span className="transition">
               <a
-                href="https://github.com/dev-bams"
+                href="https://github.com/khaleedcodes"
                 className="cursor-cell text-first-accent"
               >
                 &nbsp;Khaleed Opeloyeru
